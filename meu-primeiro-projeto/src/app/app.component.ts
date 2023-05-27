@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-  <app-title title="Olá Mundo"></app-title>
+  <app-data-biding></app-data-biding>
   <router-outlet></router-outlet>
   `,
 })
