@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DataBidingComponent implements OnInit {
 
-  public nome: string = "Dener";
-  public idade: number = 29;
+  public nome: string = "Estefany";
+  public idade: number = 20;
 
   public checkedDisabled: boolean = false;
 
