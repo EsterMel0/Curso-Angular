@@ -8,6 +8,8 @@ import { TitleComponent } from './title/title.component';
 import { DataBidingComponent } from './data-biding/data-biding.component';
 import { DiretivasEstruturaisComponent } from './diretivas-estruturais/diretivas-estruturais.component';
 import { DiretivasAtributosComponent } from './diretivas-atributos/diretivas-atributos.component';
+import { FoodListComponent } from './shared/food-list/food-list.component';
+import { FoodAddComponent } from './shared/food-add/food-add.component';
 
 
 @NgModule({
@@ -16,7 +18,9 @@ import { DiretivasAtributosComponent } from './diretivas-atributos/diretivas-atr
     TitleComponent,
     DataBidingComponent,
     DiretivasEstruturaisComponent,
-    DiretivasAtributosComponent
+    DiretivasAtributosComponent,
+    FoodListComponent,
+    FoodAddComponent
   ],
   imports: [
     BrowserModule,

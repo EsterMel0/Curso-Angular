@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   <app-diretivas-atributos></app-diretivas-atributos>
   <app-diretivas-estruturais></app-diretivas-estruturais>
   <app-data-biding></app-data-biding>
+
+  <app-food-add></app-food-add>
+  <app-food-list></app-food-list>
   <router-outlet></router-outlet>
   `,
 })
