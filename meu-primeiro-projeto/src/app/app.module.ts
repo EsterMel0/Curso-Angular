@@ -10,6 +10,7 @@ import { DiretivasEstruturaisComponent } from './diretivas-estruturais/diretivas
 import { DiretivasAtributosComponent } from './diretivas-atributos/diretivas-atributos.component';
 import { FoodListComponent } from './shared/food-list/food-list.component';
 import { FoodAddComponent } from './shared/food-add/food-add.component';
+import { FormsComponent } from './forms/forms.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { FoodAddComponent } from './shared/food-add/food-add.component';
     DiretivasEstruturaisComponent,
     DiretivasAtributosComponent,
     FoodListComponent,
-    FoodAddComponent
+    FoodAddComponent,
+    FormsComponent
   ],
   imports: [
     BrowserModule,
